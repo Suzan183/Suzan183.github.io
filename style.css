@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display|Pacifico|Chewy|cinzel+Decorative|Faster+One|Rye|vast+shadow|Finger+Paint|Codystar|dancing+script|merienda|galada|oleo+script+swash+caps');
+*
+{
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.container
+{
+  width:90%;
+  margin:auto;
+  position:relative;
+
+}
+header
+{
+ 
+  height:81px;
+  padding-top:19px;
+  font-size: 18px;
+}
+header nav , h3 , .search
+{ 
+  float:left;
+  width:33.333%; 
+}
+header nav
+{  
+    font-weight: 500;
+}
+header nav ul
+{
+ list-style:none;
+ padding: 10px 0 20px 0;
+}
+header nav ul li
+{
+ float:left;
+  padding-left: 20px;
+  display: inline-block;
+}
+header nav ul li:hover
+{
+  font-weight:bold;
+  text-decoration:underline;
+}
+header h3
+{
+  color:#A6C1ED;
+  font-size:30px;
+  font-weight: bolder;
+  font-family:'Playfair Display';
+  margin:0;
+  padding:0;
+  text-align:center;
+  padding: 15px;
+}
+header .search
+{
+ text-align:right;
+ padding: 20px;
+ }
+header .search input
+{ 
+  border:1px solid #CCC;
+  border-radius:20px;
+  padding-left:10px;
+  height:28px;
+  width: 150px;
+}
+header .search button
+{
+  background: transparent;
+  border:none;
+  margin-left:5px; 
+}
+header .search button:nth-of-type(2)
+{
+  background-color:#A6C1ED;  
+  border-radius: 15px;
+  height:27px;
+  width:100px;
+}
+.picture
+{
+ width:100%;
+ box-shadow: 0 -8px 22px #C9C9C9 inset;
+ background-image: url('https://cdn.rawgit.com/ahmedhosna95/Elzero-Practice-07/b5ec32f4/images/bg.svg');
+ background-size: cover;
+ height: 850px;
+ position: relative;
+
+}
+.picture .info
+{
+ font-family:'Playfair Display';
+  text-align: right;
+  top:250px;
+  font-style: italic;
+  font-size: 30px;
+  position: absolute;
+  right: 150px; 
+}
+.picture .info h4
+{
+ font-weight: lighter;
+}
+.picture .counters
+{
+ position: absolute;
+ top:770px;
+ width:60%;
+ float:right;
+ text-align: left;
+ right: 0;
+}
+.picture .counters section
+{
+ float: left;
+width:33.333%;
+}
+.picture .counters section h5
+{
+    font-size:15px;
+    font-family:'Playfair Display';
+    padding:0;
+    margin: 0;
+}
+.picture .counters section p
+{
+    font-size:40px;
+    font-family:Pacifico;
+    padding:0;
+    margin:0;
+}
+ 
